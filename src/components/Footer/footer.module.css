@@ -1,0 +1,40 @@
+.footer {
+  z-index: 1;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  background-color: #F5F5F5;
+  /*height: 1150px;*/
+  border-radius: 15px;
+  /*padding: 10px 80px;*/
+  padding: 35px 20px;
+  overflow: hidden;
+}
+
+.subFooter {
+  height: 800px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 20px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.subFooterImage {
+  max-width: 302px;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.text {
+  color: #1e1e24;
+  cursor: pointer;
+}
+
+.text:hover {
+  color: #414147
+}

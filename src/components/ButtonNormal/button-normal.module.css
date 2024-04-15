@@ -1,0 +1,24 @@
+.button {
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #1e1e24;
+}
+
+.button:hover {
+  color: #414147;
+}
+
+.icon {
+  transition: transform 0.5s ease;
+}
+
+.button:hover .icon {
+  transform: translateY(-3px) translateX(3px);
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: 100%;
+  }
+}
